@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+  table {
+    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  th, td {
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: left;
+  }

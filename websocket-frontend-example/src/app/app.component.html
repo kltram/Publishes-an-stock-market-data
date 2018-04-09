@@ -1,0 +1,42 @@
+<div style="text-align:center; ">
+
+    <h1 style="font-size: 4em;">
+
+        Indian NIFTY 50 Stocks <span style="color: red;"></span>
+		</h1>
+		<table>
+		<thead>
+			
+				<th>Stocks Symbol</th>
+				<th>Day High</th>
+				<th>Day Low</th>
+				<th>LTP</th>
+				<th>Trade Vol</th>
+				<th>Trade Vol M</th>
+				<th>M Val</th>
+				<th>X DT</th>
+				<th>Day End Close</th>
+				<th>Percentage Change</th>
+			
+		</thead>
+		<tbody>
+			<tr *ngFor='let item of notifications'>
+				<td>{{item.symbol}}</td>
+				<td>{{item.high}}</td>
+				<td>{{item.low}}</td>
+				<td>{{item.ltP}}</td>
+				<td>{{item.trdVol}}</td>
+				<td>{{item.trdVolM}}</td>
+				<td>{{item.mVal}}</td>
+				<td>{{item.xDt}}</td>
+				<td>{{item.dayEndClose}}</td>
+				<td>{{item.iislPtsChange}}</td>
+			</tr>
+		</tbody>
+		
+		</table>
+
+    
+
+</div>
+
