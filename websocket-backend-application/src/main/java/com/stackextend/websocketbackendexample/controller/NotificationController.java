@@ -17,6 +17,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author Ramesh
+ * @since 1.0
+ * @version Revision History
+ * 
+ *<pre>
+ * --------------------------------------------------------
+ * Version |By            |Date          |Modification
+ * -------------------------------------------------------- 
+ * 1.0     |Ramesh       |2018-04-08    |Create
+ * </pre>
+ */
 @RestController
 public class NotificationController {
 
